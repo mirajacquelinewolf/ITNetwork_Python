@@ -3,12 +3,12 @@
 cislo_1 = int(input("Zadej první číslo: "))
 cislo_2 = int(input("Zadej druhé číslo: "))
 
-if cislo_1 == cislo_2:
-    print("Čísla jsou si rovna.")
-elif cislo_1 > cislo_2:
+if cislo_1 > cislo_2:
     print("První číslo je větší.")
+elif cislo_1 < cislo_2:
+    print("Druhé číslo je větší.")
 else:
-    print("První číslo je menší.")
+    print("Čísla jsou si rovna.")
 
 
 # druhý příklad - string – je celý velkými písmeny?
