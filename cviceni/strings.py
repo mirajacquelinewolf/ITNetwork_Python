@@ -1,7 +1,7 @@
 # první příklad – porovnání čísel
 
 cislo_1 = int(input("Zadej první číslo: "))
-cislo2 = int(input("Zadej druhé číslo: "))
+cislo_2 = int(input("Zadej druhé číslo: "))
 
 if cislo_1 == cislo_2:
     print("Čísla jsou si rovna.")
